@@ -1,30 +1,22 @@
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-pergunta");
 const caixaAlternativa = document.querySelector(".caixa-alternativa");
-const caixaResultado = document.querySelector("caixa-resultado");
-const textoResultado = document.querySelector("texto-resultado");
+const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
 {
-enunciado: ""
-alternativa: [
-""
-""
-]
+enunciado: "Qual é uma prática benéfica para promover o bem-estar fisíco e mental tanto em humanos quanto em animais de estimação?",
+alternativas: [
+{
+texto:"Passeios diários ao ar livre",
+afirmação:"O exercício regular é crucial para manter a saúde cardiovascular e a agilidade fisíca em humanos e animais"
 }, 
 {
-enunciado:
-alternativa: [ 
-""
-""
-]
-}, 
-{
-enunciado:
-alternativa: [ 
-""
-""
-]
+texto:"Assitir televisão juntos"
+afirmação:"Interagir e brincar com animais de estimação pode reduzir os níveis de estresse e promover uma sensação de calma e felicidade tanto para as pessoas quanto para os animais"
 } 
+]    
+}
 ];
 let atual = 0;
 let perguntaAtual;
